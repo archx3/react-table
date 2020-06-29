@@ -1,0 +1,31 @@
+{
+  "name": "mpharma-react-table-example",
+  "homepage": "https://chiamaka.github.io/mpharma-react-table",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.4.0",
+    "mpharma-react-table": "file:..",
+    "prop-types": "^15.7.2",
+    "react-scripts": "^3.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
