@@ -43,18 +43,19 @@ export const Select = styled.select`
   width: 50px;
   color: #757575;
   cursor: pointer;
+  padding-left: 10;
   background: url(${CaretDown}) 50% / 50% no-repeat #fff;
 `;
 
 export const IconButton = styled.button`
-  pointer-events: ${props => (props.disabled ? 'none' : 'auto')};
+  pointer-events: ${(props) => (props.disabled ? 'none' : 'auto')};
   border: none;
   outline: none;
   padding: 12px;
   cursor: pointer;
   background-color: #fff;
   svg {
-    fill: ${props => (props.disabled ? 'rgba(0, 0, 0, 0.26)' : 'inherit')};
+    fill: ${(props) => (props.disabled ? 'rgba(0, 0, 0, 0.26)' : 'inherit')};
   }
 
   @media (max-width: 600px) {

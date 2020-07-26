@@ -2880,7 +2880,7 @@ TableHeader$3.propTypes = {
 };
 
 function _templateObject2$2() {
-  var data = _taggedTemplateLiteralLoose(["\n  ", "\n  letter-spacing: 0.54px;\n  text-align: ", ";\n  text-transform: ", ";\n  padding: 4px 40px 4px 24px;\n"]);
+  var data = _taggedTemplateLiteralLoose(["\n  ", "\n  letter-spacing: 0.54px;\n  text-align: ", ";\n  padding: 4px 40px 4px 24px;\n"]);
 
   _templateObject2$2 = function _templateObject2() {
     return data;
@@ -2890,7 +2890,7 @@ function _templateObject2$2() {
 }
 
 function _templateObject$2() {
-  var data = _taggedTemplateLiteralLoose(["\n  height: 50px;\n  border-bottom: 0.5px solid rgba(221, 221, 221, 0.4);\n  text-transform: capitalize;\n  cursor: pointer;\n  :hover {\n    background-color: ", ";\n  }\n"]);
+  var data = _taggedTemplateLiteralLoose(["\n  height: 50px;\n  border-bottom: 0.5px solid rgba(221, 221, 221, 0.4);\n\n  cursor: pointer;\n  :hover {\n    background-color: ", ";\n  }\n"]);
 
   _templateObject$2 = function _templateObject() {
     return data;
@@ -2903,8 +2903,6 @@ var TableBodyRow = styled__default.tr(_templateObject$2(), function (props) {
 });
 var TableBodyData = styled__default.td(_templateObject2$2(), text, function (props) {
   return props.align;
-}, function (props) {
-  return props.uppercase && 'uppercase';
 });
 
 function TableRow(_ref) {
@@ -3011,7 +3009,7 @@ function _templateObject3$1() {
 }
 
 function _templateObject2$3() {
-  var data = _taggedTemplateLiteralLoose(["\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n  background: none;\n  border: none;\n  outline: none;\n  width: 50px;\n  color: #757575;\n  cursor: pointer;\n  background: url(", ") 50% / 50% no-repeat #fff;\n"]);
+  var data = _taggedTemplateLiteralLoose(["\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n  background: none;\n  border: none;\n  outline: none;\n  width: 50px;\n  color: #757575;\n  cursor: pointer;\n  padding-left: 10;\n  background: url(", ") 50% / 50% no-repeat #fff;\n"]);
 
   _templateObject2$3 = function _templateObject2() {
     return data;

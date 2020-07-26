@@ -8,7 +8,7 @@ import { formatDate, formatCountry } from '../utils/';
 const TableBodyRow = styled.tr`
   height: 50px;
   border-bottom: 0.5px solid rgba(221, 221, 221, 0.4);
-  text-transform: capitalize;
+
   cursor: pointer;
   :hover {
     background-color: ${(props) => props.hover && 'rgba(0, 0, 0, 0.07)'};
@@ -19,7 +19,6 @@ const TableBodyData = styled.td`
   ${text}
   letter-spacing: 0.54px;
   text-align: ${(props) => props.align};
-  text-transform: ${(props) => props.uppercase && 'uppercase'};
   padding: 4px 40px 4px 24px;
 `;
 

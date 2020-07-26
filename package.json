@@ -58,11 +58,6 @@
     "rollup-plugin-postcss": "^2.0.3",
     "rollup-plugin-url": "^2.2.2"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run test"
-    }
-  },
   "files": [
     "dist"
   ],

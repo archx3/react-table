@@ -5,20 +5,20 @@ import TableBody from './TableBody';
 
 const data = [
   {
-    name: 'Chiamaka',
+    name: 'Terrence',
     country: 'Nigeria',
-    age: 25
+    age: 25,
   },
   {
     name: 'Nick',
     country: 'Ghana',
-    age: 30
+    age: 30,
   },
   {
     name: 'Alfred',
     country: 'USA',
-    age: 30
-  }
+    age: 30,
+  },
 ];
 
 describe('Table Body', () => {
