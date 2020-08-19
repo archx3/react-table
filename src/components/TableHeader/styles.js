@@ -7,7 +7,7 @@ export const TableHeadRow = styled.tr`
   th {
     position: sticky;
     top: 0;
-    font: Sofia Pro Bold, Roboto;
+    font: Sofia Pro, Roboto;
     background-color: #fff;
     z-index: 1;
   }
