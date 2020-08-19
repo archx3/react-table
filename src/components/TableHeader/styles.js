@@ -19,7 +19,7 @@ export const TableHeader = styled.th`
   text-align: ${(props) => props.align};
   padding: 4px 40px 4px 24px;
   border-bottom: 0.5px solid rgba(221, 221, 221, 0.4);
-  font-family: Sofia Pro Bold, Roboto;
+  font-family: Sofia Pro, Roboto;
 
   svg {
     vertical-align: middle;
