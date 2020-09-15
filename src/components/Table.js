@@ -19,7 +19,7 @@ function Table(props) {
     rowsPerPageOptions,
     onNextPage,
     emptyMessage,
-    emptyMessageStyle
+    emptyMessageStyle,
   } = props;
   const indexes = extractDataIndexes(headers);
 
@@ -32,7 +32,7 @@ function Table(props) {
             {data.length === 0 ? (
               <tbody style={emptyMessageStyle}>
                 <tr>
-                  <td>{emptyMessage || 'No data available!'}</td>
+                  <td>{emptyMessage}</td>
                 </tr>
               </tbody>
             ) : (
@@ -66,7 +66,7 @@ Table.propTypes = {
   emptyMessageStyle: PropTypes.object,
   renderIcon: PropTypes.func,
   tableStyle: PropTypes.object,
-  tableBodyStyle: PropTypes.object
+  tableBodyStyle: PropTypes.object,
 };
 
 Table.defaultProps = {
@@ -77,7 +77,7 @@ Table.defaultProps = {
   onNextPage: () => {},
   renderIcon: () => {},
   tableStyle: {},
-  tableBodyStyle: {}
+  tableBodyStyle: {},
 };
 
 export default Table;
