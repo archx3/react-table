@@ -2756,7 +2756,7 @@ DataStore.propTypes = {
 };
 
 function _templateObject2$1() {
-  var data = _taggedTemplateLiteralLoose(["\n  ", "\n  letter-spacing: 0.38px;\n  text-align: ", ";\n  padding: 4px 40px 4px 24px;\n  border-bottom: 0.5px solid rgba(221, 221, 221, 0.4);\n  font-family: 'Sofia Pro Bold';\n\n  svg {\n    vertical-align: middle;\n    color: rgba(0, 0, 0, 0.87);\n  }\n"]);
+  var data = _taggedTemplateLiteralLoose(["\n  ", "\n  letter-spacing: 0.38px;\n  text-align: ", ";\n  padding: 4px 40px 4px 24px;\n  border-bottom: 0.5px solid rgba(221, 221, 221, 0.4);\n  font-family: GlacialBold;\n\n  svg {\n    vertical-align: middle;\n    color: rgba(0, 0, 0, 0.87);\n  }\n"]);
 
   _templateObject2$1 = function _templateObject2() {
     return data;
@@ -2766,7 +2766,7 @@ function _templateObject2$1() {
 }
 
 function _templateObject$1() {
-  var data = _taggedTemplateLiteralLoose(["\n  height: 55px;\n  cursor: pointer;\n  th {\n    position: sticky;\n    top: 0;\n    background-color: #fff;\n    z-index: 1;\n  }\n"]);
+  var data = _taggedTemplateLiteralLoose(["\n  height: 55px;\n  cursor: pointer;\n  th {\n    position: sticky;\n    top: 0;\n    font: GlacialBold;\n    background-color: #fff;\n    z-index: 1;\n  }\n"]);
 
   _templateObject$1 = function _templateObject() {
     return data;
@@ -3163,7 +3163,7 @@ function Table(props) {
     headers: headers
   }), data.length === 0 ? React__default.createElement("tbody", {
     style: emptyMessageStyle
-  }, React__default.createElement("tr", null, React__default.createElement("td", null, emptyMessage || 'No data available!'))) : React__default.createElement(TableBody$1, {
+  }, React__default.createElement("tr", null, React__default.createElement("td", null, emptyMessage))) : React__default.createElement(TableBody$1, {
     count: count,
     data: data,
     dataIndexes: indexes,
